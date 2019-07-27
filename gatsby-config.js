@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Structure and Interpretation of Computer Programs - Exercises`,
+        short_name: `SICP Exercises`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
