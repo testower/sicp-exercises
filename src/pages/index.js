@@ -8,8 +8,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h3>Chapter 1</h3>
-    <Link to="/1-1/">1.1</Link>
-    <Link to="/1-2/">1.2</Link>
+    <ul>
+      <li><Link to="/1-1/">1.1</Link></li>
+      <li><Link to="/1-2/">1.2</Link></li>
+    </ul>
   </Layout>
 )
 
