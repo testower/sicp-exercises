@@ -24,7 +24,7 @@ export default IndexPage
 
 export const query = graphql`
 query allNotesQuery {
-  allMarkdownRemark(sort: {fields: frontmatter___chapter, order: ASC}) {
+  allMarkdownRemark(sort: {fields: frontmatter___path, order: ASC}) {
     edges {
       node {
         frontmatter {
